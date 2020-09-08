@@ -8,7 +8,7 @@ math: true
 image: /assets/img/sample/devices-mockup.png
 ---
 
-This Jekyll template totally compatible with Markdown syntax. Now, let's have a look at the text and typography.
+시불탱
 
 
 ## Titles
@@ -27,17 +27,7 @@ This Jekyll template totally compatible with Markdown syntax. Now, let's have a 
 
 ## Paragraph
 
-I wandered lonely as a cloud
-
-That floats on high o'er vales and hills,
-
-When all at once I saw a crowd,
-
-A host, of golden daffodils;
-
-Beside the lake, beneath the trees,
-
-Fluttering and dancing in the breeze.
+ 아니 분명 아까 저 테이블은 없었는데 어디서 생겼지 하고 잘 보니 위에서 체크한 글 정보를 가지고 있는 것 같습니다. 그럼 어떻게 만든건지 확인해봅니다. 수정 버튼을 눌러볼게요
 
 ## List
 
