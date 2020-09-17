@@ -3,13 +3,10 @@ title: 클라우드 기반에 대해서 잡담
 author: Song
 date: 2020-09-17 12:59:00 +0800
 categories: [카테고리1, 카테고리2]
-tags: [태그,태그2]
+tags: [개발,클라우드]
 math: true
-image: /assets/img/sample/amazon.png
+image: /assets/img/sample/amazon.jpg
 ---
-
-해당글은 클릭 시 원본으로 넘어갑니다
-[Favicons](https://blog.naver.com/vjzm44/221990189894)
 
 요즘은 서버도 그렇고 개인자료도 그렇고 클라우드에 올려놓는것같다.
 
@@ -39,7 +36,7 @@ image: /assets/img/sample/amazon.png
 
 어릴적 포맷할려고 네이버 지식인찾아보고 몇일 삽질하던 기억이 난다. 그래도 그런경험이 있어 지금 내가 개발자가 된건가라고도 생각이든다. 
 
-어떤세상이든 개발자는 항상 필요하니 먹고살기 좋아 나는 좋다.
+`어떤세상이든 개발자는 항상 필요하니 먹고살기 좋아 나는 좋다.`
 
- 
-원본글은 여기를 참조`https://blog.naver.com/vjzm44/221990189894`.
+
+[**원본글링크**](https://blog.naver.com/vjzm44/221990189894)
