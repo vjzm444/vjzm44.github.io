@@ -1,5 +1,5 @@
 ---
-title: Text and Typography
+title: 구름IDE상에서의 커밋 방법
 author: Cotes Chung
 date: 2019-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
@@ -8,9 +8,20 @@ math: true
 image: /assets/img/sample/devices-mockup.png
 ---
 
-시불탱호메메이게머라엄마보고싶어요
+-구름IDE상에서의 커밋 방법
+
+https://studioplug.tistory.com/342
+
+ 
+-현주의 git blog
+https://vjzm444.github.io/
+
+ 
+-구름IDE 작업장
+https://ide.goorm.io/
 
 
+이하글은 나중에 긁은 샘플들
 ## Titles
 
 ---
