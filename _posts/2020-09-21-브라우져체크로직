@@ -1,0 +1,61 @@
+---
+title: 브라우져 체크 로직 소스
+author: Song
+date: 2020-09-21 12:59:00 +0800
+categories: [브라우져]
+tags: [개발,소스]
+math: true
+image: /assets/img/sample/amazon.jpg
+---
+
+
+#### JAVA
+
+```java
+String userAgent = request.getHeader("user-agent");
+		String browser = "";
+		String ver = "";
+
+		if (userAgent.indexOf("Trident") > -1 || userAgent.indexOf("MSIE") > -1) { // IE
+			browser = "IE";
+			ver = "11.0.0";
+		} else if (userAgent.indexOf("Opera") > -1 || userAgent.indexOf("OPR") > -1) { // 오페라
+			if (userAgent.indexOf("Opera") > -1) {
+				browser = "OPERA";
+				ver = userAgent.split("Opera/")[1].toString().split(" ")[0].toString();
+			} else if (userAgent.indexOf("OPR") > -1) {
+				browser = "OPERA";
+				ver = userAgent.split("OPR/")[1].toString().split(" ")[0].toString();
+			}
+		} else if (userAgent.indexOf("Whale") > -1) { // 네이버 WHALE
+			browser = "WHALE";
+			ver = userAgent.split("Whale/")[1].toString().split(" ")[0].toString();
+		} else if (userAgent.indexOf("Safari") > -1 && userAgent.indexOf("Chrome") == -1) { // 사파리
+			browser = "SAFARI";
+			ver = userAgent.split("Safari/")[1].toString().split(" ")[0].toString();
+		} else if (userAgent.indexOf("Chrome") > -1) { // 크롬
+			browser = "CHROME";
+			ver = userAgent.split("Chrome/")[1].toString().split(" ")[0].toString();
+		}
+
+		if (browser.equals("")) {
+			browser = "OTHER"; // 예외 브라우져 처리
+		}
+
+		if (ver.equals("")) {
+			ver = "2.1.8"; // 예외 버젼 처리
+		}
+
+		int idx = ver.indexOf(".");
+		String mail1 = ver.substring(0, idx);
+		int verChk = Integer.parseInt(mail1);
+
+		System.out.println("브라우저 확인 = " + browser);
+		System.out.println("버전 확인 = " + verChk);
+
+		if (browser.equals("CHROME") && verChk >= 80) {
+			System.out.println("80보다크거나 같음");
+		} else {
+			System.out.println("그외 브라우져 or 크롬 80아래");
+		}
+```
